@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package hitung;
 
-/**
- *
- * @author LENOVO
- */
 public class MatematikaBeraksi {
+    public static void main(String[] args){
+        //membuat objek
+        Matematika fadhil = new Matematika(9,7);
+        
+        System.out.println("Hasil penjumlahan: "+fadhil.setPenjumlahan());
+        System.out.println("Hasil pengurangan: "+fadhil.setPengurangan());
+        System.out.println("Hasil perkalian: "+fadhil.setPerkalian());
+        System.out.println("Hasil pembagian: "+fadhil.setPembagian());
     
+    }           
 }
